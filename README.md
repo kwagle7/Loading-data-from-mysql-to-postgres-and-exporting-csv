@@ -35,6 +35,7 @@ The final task requires you to automate the extraction of data from the sales da
 - Step 6: run `bash ETL.sh` - this is the step to extract the data from the MySQL database, transform and load it into the PostgreSQL Staging Warehouse, and export the database tables into csv files (this CSV files can be used for production warehouse)
 - Step 7: Schedule a corn job to automate these tasks
       - start the crontab> write a command in the crontab editor to automate the tasks in the ETL.sh file every 24 hours. > start the cron service.
+        - `crontab -e` > then `0 0 * * * /home/project/ETL.sh` > then ctrl + O > then enter> then ctrl+X to exit.
 
   DONE.
 
@@ -42,6 +43,7 @@ The final task requires you to automate the extraction of data from the sales da
 ![image](https://github.com/kwagle7/Loading-data-from-mysql-to-postgres-and-exporting-csv/assets/13037108/5fd7d740-9d54-4384-a3cd-ba0b581d0e95)
 ![image](https://github.com/kwagle7/Loading-data-from-mysql-to-postgres-and-exporting-csv/assets/13037108/b8f1b754-20fd-4b02-80b0-80c904552426)
 ![image](https://github.com/kwagle7/Loading-data-from-mysql-to-postgres-and-exporting-csv/assets/13037108/8b5988eb-10a1-439e-9ce9-99d1b8b74df2)
+![image](https://github.com/kwagle7/Loading-data-from-mysql-to-postgres-and-exporting-csv/assets/13037108/86cca92d-a7e3-4d2f-97d3-bbdae7c1509a)
 
 
 
