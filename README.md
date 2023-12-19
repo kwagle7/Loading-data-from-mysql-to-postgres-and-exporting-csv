@@ -7,6 +7,8 @@ Create a shell script to:
 - Schedule a cron job to automate these tasks
 
 # Overview:
+![image](https://github.com/kwagle7/Loading-data-from-mysql-to-postgres-and-exporting-csv/assets/13037108/ac87601c-67aa-433e-bf3b-43ed86aea21d)
+
 You need to keep data synchronized between different databases/data warehouses as a part of your daily routine. One task that is routinely performed is the sync up of the transactional database and staging data warehouse. Automating this sync-up will save you time and standardize your process.
 
 The Data Warehouse gets information from several sources including the transactional (OLTP) database. Transactional data from the OLTP database (in this case MySQL) needs to be propagated to the warehouse on a frequent basis. This data movement can be updated using ETL processes.
