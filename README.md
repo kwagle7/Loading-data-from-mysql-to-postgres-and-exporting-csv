@@ -38,4 +38,10 @@ The final task requires you to automate the extraction of data from the sales da
 
   DONE.
 
+ # Screenshots:
+![image](https://github.com/kwagle7/Loading-data-from-mysql-to-postgres-and-exporting-csv/assets/13037108/5fd7d740-9d54-4384-a3cd-ba0b581d0e95)
+![image](https://github.com/kwagle7/Loading-data-from-mysql-to-postgres-and-exporting-csv/assets/13037108/b8f1b754-20fd-4b02-80b0-80c904552426)
+![image](https://github.com/kwagle7/Loading-data-from-mysql-to-postgres-and-exporting-csv/assets/13037108/8b5988eb-10a1-439e-9ce9-99d1b8b74df2)
+
+
 
